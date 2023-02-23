@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .hero, .images, .quote, .promo, .footer{
+    display: flex;
+    padding: 16px 256px;
+
+}
+
+/* header section*/
+.header{
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header ul{ 
+    list-style: none;
+    display: flex;
+    justify-self: flex-end;
+    gap: 16px;
+}
+
+.header a{ 
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header a:hover{
+    color: grey;
+}
+
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* hero section*/
+.hero{
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.display img{
+    max-width: 512px;
+    max-height: auto;
+    padding-left: 32px;
+    padding-bottom: 32px;
+}
+
+.intro{
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.intro-desc{
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero .button{
+    margin-top: 16px;
+}
+
+/* images section*/
+.images{
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.deck{
+    display: flex;
+    gap: 16px;
+}
+
+.desc{
+    display: flex;
+    gap: 16px;
+}
+
+.description{
+    min-width: 300px;
+    height: auto;
+
+}
+
+.images img{
+    width: 300px;
+    height: auto;
+}
+
+
+/* quote section*/
+.quote{
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    min-height: 128px;
+    background-color: #E5E7EB;
+}
+
+/* promo section*/
+.promo{
+    min-height: 128px;
+    align-items: center;
+    justify-content: center;
+}
+
+.promo .content{
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 64px;
+    min-width: 1024px;
+    background-color: #3882F6;
+}
+
+.promo div{
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer section*/
+.footer{
+    min-height: 32px;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+/* extra */
+.button{
+    display: flex;
+    height: 32px;
+    width: 64px;
+    font-size: 16px;
+    border: 2px solid #eee;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.button a:hover{
+    color: grey;
+}
